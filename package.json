@@ -1,0 +1,28 @@
+{
+  "name": "linoy-eligulashvili-213655590-lee-benshimon-322978909",
+  "version": "1.0.0",
+  "description": "this is task 1",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeeBenShimon/test-app.git"
+  },
+  "author": "Lee Ben Shimon Linoy Eligulashvili",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeeBenShimon/test-app/issues"
+  },
+  "homepage": "https://github.com/LeeBenShimon/test-app#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
