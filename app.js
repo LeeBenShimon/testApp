@@ -17,10 +17,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const postsRoutes = require("./routes/posts_route");
 app.use("/posts", postsRoutes);
 
-app.get("/about", (req, res) => {
-  res.send("Hello World!");
-});
-
 app.listen(port, () => {    
   console.log(`Example app listening at http://localhost:${port}`);
 });

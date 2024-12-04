@@ -1,21 +1,5 @@
 ###
 
-GET http://localhost:3000/about
-
-###
-
-GET http://localhost:3000/posts
-
-###
-
-GET http://localhost:3000/posts?owner=Lee
-
-###
-
-GET http://localhost:3000/posts/4565566777888999
-
-###
-
 POST http://localhost:3000/posts
 Content-Type: application/json
 
@@ -25,8 +9,4 @@ Content-Type: application/json
     "content": "This is my first post!"
 }
 
-###
 
-DELETE http://localhost:3000/posts/4567788866678990
-
-###
